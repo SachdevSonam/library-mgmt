@@ -38,7 +38,14 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+     </build>
+    <distributionManagement>
+      <repository>
+        <id>my-domain-library-repo</id>
+        <name>my-domain-library-repo</name>
+        <url>https://my-domain-381492154560.d.codeartifact.us-east-1.amazonaws.com/maven/library-repo/</url>
+     </repository>
+   </distributionManagement>
 
 </project>
 
